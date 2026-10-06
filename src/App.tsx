@@ -187,12 +187,12 @@ export function App() {
             className="fixed inset-0 pointer-events-none z-0 transition-all duration-1000 bg-cover bg-center bg-no-repeat"
             style={{
               backgroundImage: `url(${activeBgTheme.url})`,
-              filter: 'brightness(0.3) contrast(1.15) saturate(1.2)'
+              filter: 'brightness(0.72) contrast(1.12) saturate(1.25)'
             }}
           />
 
-          {/* Dark Ambient Botanical Gradient Mask for Pristine Contrast */}
-          <div className="fixed inset-0 pointer-events-none z-0 bg-gradient-to-b from-[#0A3323]/85 via-[#0A3323]/90 to-[#0A3323] backdrop-blur-[2px]" />
+          {/* Light Ambient Botanical Gradient Mask for High Background Visibility & Pristine Text Contrast */}
+          <div className="fixed inset-0 pointer-events-none z-0 bg-gradient-to-b from-[#0A3323]/45 via-[#0A3323]/60 to-[#0A3323]/85 backdrop-blur-[1px]" />
 
           {/* Dynamic Region Theme Badge */}
           <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-6 flex justify-center">

@@ -68,7 +68,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onFindTrip }) => {
           muted
           loop
           playsInline
-          className="w-full h-full object-cover scale-105 filter brightness-75 contrast-110"
+          className="w-full h-full object-cover scale-105 filter brightness-95 contrast-105"
         />
         {/* Cinematic Vignette & Botanical Overlay */}
         <div className="absolute inset-0 hero-vignette z-10" />
